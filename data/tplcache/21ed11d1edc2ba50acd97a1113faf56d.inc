@@ -1,0 +1,1 @@
+<li><a href="[field:arcurl/]"><img alt="[field:fulltitle/]" data-original="[field:first_imgurl function='thumb(@me,150,60)'/]" width="150" height="60" bigpic="[field:first_imgurl function='thumb(@me,770,370)'/]" title="[field:fulltitle/]" /></a></li>

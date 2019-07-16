@@ -1,0 +1,45 @@
+<?php
+$z[0]=Array("sppage","{path}{file}_{p}{ext}",0,83);
+$z[0][4]['sptype']="diyrule";
+$z[0][4]['srul']="1";
+$z[0][4]['erul']="5";
+$z[1]=Array("previewurl","http://www.mn123.net/wangluohongren/159.html",85,164);
+$z[2]=Array("keywordtrim","",166,203);
+$z[3]=Array("descriptiontrim","",205,250);
+$z[4]=Array("item","\r\n   {dede:match}<title>[内容]</title>{/dede:match}\r\n   {dede:trim replace=\"\"}_美女专题站{/dede:trim}\r\n   {dede:function}{/dede:function}\r\n",252,457);
+$z[4][4]['field']="title";
+$z[4][4]['value']="";
+$z[4][4]['isunit']="";
+$z[4][4]['isdown']="";
+$z[5]=Array("item","\r\n   {dede:match}{/dede:match}\r\n   \r\n   {dede:function}{/dede:function}\r\n",457,597);
+$z[5][4]['field']="writer";
+$z[5][4]['value']="";
+$z[5][4]['isunit']="";
+$z[5][4]['isdown']="";
+$z[6]=Array("item","\r\n   {dede:match}{/dede:match}\r\n   \r\n   {dede:function}{/dede:function}\r\n",597,737);
+$z[6][4]['field']="source";
+$z[6][4]['value']="";
+$z[6][4]['isunit']="";
+$z[6][4]['isdown']="";
+$z[7]=Array("item","\r\n   {dede:match}{/dede:match}\r\n   \r\n   {dede:function}{/dede:function}\r\n",737,878);
+$z[7][4]['field']="pubdate";
+$z[7][4]['value']="";
+$z[7][4]['isunit']="";
+$z[7][4]['isdown']="";
+$z[8]=Array("item","\r\n   {dede:match}<div class=\"content_pic\">[内容]</div>{/dede:match}\r\n   \r\n   {dede:function}@me=TurnImageTag(@me);\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n{/dede:function}\r\n",878,1098);
+$z[8][4]['field']="imgurls";
+$z[8][4]['value']="";
+$z[8][4]['isunit']="1";
+$z[8][4]['isdown']="1";
+$z[9]=Array("item","\r\n   {dede:match}{/dede:match}\r\n   \r\n   {dede:function}{/dede:function}\r\n",1098,1238);
+$z[9][4]['field']="body";
+$z[9][4]['value']="";
+$z[9][4]['isunit']="1";
+$z[9][4]['isdown']="1";
+$z[10]=Array("item","\r\n   {dede:match}{/dede:match}\r\n   \r\n   {dede:function}{/dede:function}\r\n",1238,1378);
+$z[10][4]['field']="imgurl";
+$z[10][4]['value']="";
+$z[10][4]['isunit']="";
+$z[10][4]['isdown']="";
+
+?>

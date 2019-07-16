@@ -1,0 +1,44 @@
+<div class="headNav">
+<div class="menu" id="menu" val="0">µ¼º½</div>
+<div class="logo"><a href="/">Èý·è¾ãÀÖ²¿</a></div>
+<a href="/"><div class="home"></div></a>
+</div>
+<div class="g-header" id="hd-m-home">
+<div class="g-header-container">
+</div>
+</div>
+<div id="showMenu" style="display: none;">
+<div class="menu-l-box">
+<ul class="menu-tit" id="color">
+{dede:channel type='top' row='9'}
+<li class="tagnav1 this">
+<a href='list.php?tid=[field:id/]'>[field:typename/] </a></li>
+{/dede:channel}
+
+</ul>
+</div>
+</div>
+<script type="text/javascript">
+    $(function(){
+			for(var i=1;i<=20;i++){			
+				Tabs(".tagnav"+i+" a",".tagdd"+i,"on","mousedown");
+			}
+			digest();
+		});
+		function Tabs(tabs,container,active,event){
+			$(tabs).bind(event,function(){
+			var oIndex = $(tabs).index(this);	
+			$(this).addClass(active).siblings(tabs).removeClass(active);			
+			$(container).eq(oIndex).show().siblings(container).hide();
+		})
+		
+	};
+
+  </script>
+<script type="text/javascript">
+    $("#color li").click(function(){			
+            $("#color li").removeClass("this");
+            $(this).addClass("this");
+	})
+</script>
+<script src="/m/css/thea9.js"></script>

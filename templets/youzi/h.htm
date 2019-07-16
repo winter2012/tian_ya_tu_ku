@@ -1,0 +1,22 @@
+<!--页头 start-->
+<div id="header"> 
+  <!--logo start-->
+  <h1>{dede:global.cfg_webname/}</h1>
+  <div class="logo-wrap  center clearfix"> <a class="logo"  href="{dede:global.cfg_basehost/}" title="{dede:global.cfg_webname/}"> <img alt="{dede:global.cfg_webname/}" width="232" height="60" src="{dede:global.cfg_basehost /}/skins/images/logo1.png"> </a>
+    <div class="tools"> <a id="addToMark" href="javascript:void(0)" >收藏本站</a> <a href="/shortcut.php">保存到桌面</a> </div>
+  </div>
+  <!--logo end--> 
+  <!--主导航 start-->
+  <div class="header-nav">
+    <div class="bg bg-l"></div>
+    <div class="bg bg-r"></div>
+    <ul class="clearfix">
+      <li><a href="{dede:global.cfg_basehost/}">首页</a></li>
+      {dede:channel type='top' row='9' currentstyle="<li><a class='active' href='~typelink~'>~typename~</a></li>"}
+      <li><a href="[field:typeurl/]"[field:id runphp='yes']@me=(@me=='8'?' target="_blank"':'');[/field:id]>[field:typename/]</a></li>
+      {/dede:channel} 
+    </ul>
+  </div>
+  <!--主导航 end--> 
+</div>
+<!--页头 end-->

@@ -1,0 +1,42 @@
+<?php
+$z[0]=Array("global","",236,264);
+$z[0][4]['name']="cfg_soft_lang";
+$z[1]=Array("field","",277,296);
+$z[1][4]['name']="title";
+$z[2]=Array("global","",297,323);
+$z[2][4]['name']="cfg_webname";
+$z[3]=Array("field","",364,393);
+$z[3][4]['name']="keywords";
+$z[4]=Array("field","",433,491);
+$z[4][4]['name']="description";
+$z[4][4]['function']="html2text(@me)";
+$z[5]=Array("include","",765,800);
+$z[5][4]['filename']="head.htm";
+$z[6]=Array("field","",833,862);
+$z[6][4]['name']="position";
+$z[7]=Array("field","",953,972);
+$z[7][4]['name']="title";
+$z[8]=Array("list","\r\n       <li>\r\n	     <h3><a href=\"[field:arcurl/]\">[field:title/]</a></h3>\r\n		 <span>ÈÕÆÚ£º<em>[field:pubdate function=\"GetDateTimeMK(@me)\"/] </em> µã»÷£º<em>[field:click/]</em></span>\r\n		<p>[field:description function='cn_substr(@me,100)'/]...</p>\r\n    </li>\r\n    ",1186,1488);
+$z[8][4]['pagesize']="10";
+$z[9]=Array("arclist","\r\n          <li><em>[field:global name=autoindex /]</em><a href=\"[field:arcurl/]\">[field:title/]</a>\r\n        </li>\r\n      ",1774,1945);
+$z[9][4]['titlelen']="38";
+$z[9][4]['row']="8";
+$z[10]=Array("arclist","\r\n          <li> <a href=\"[field:arcurl/]\" title=\"[field:title/]\"><img src=\"[field:litpic/]\" border='0' width='130' height='170'/></a>[field:title/]\r\n	    </li>",2173,2453);
+$z[10][4]['row']="4";
+$z[10][4]['titlelen']="20";
+$z[10][4]['orderby']="click";
+$z[10][4]['typeid']="1,2,3,4,5,6";
+$z[10][4]['idlist']="";
+$z[10][4]['channelid']="2";
+$z[10][4]['col']="2";
+$z[11]=Array("arclist","\r\n          <li><em>[field:global name=autoindex /]</em>[field:title/]</li>        \r\n      ",2636,2790);
+$z[11][4]['titlelen']="38";
+$z[11][4]['row']="8";
+$z[11][4]['orderby']="click";
+$z[12]=Array("pagelist","",2917,2988);
+$z[12][4]['listitem']="info,index,end,pre,next,pageno";
+$z[12][4]['listsize']="5";
+$z[13]=Array("include","",3087,3124);
+$z[13][4]['filename']="footer.htm";
+
+?>

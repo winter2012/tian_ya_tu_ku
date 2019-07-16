@@ -1,0 +1,1 @@
+<a href="[field:arcurl/]" target="_blank"><img  src="[field:focuspic/]" width="125" height="70" alt="[field:title function='html2text(@me)'/]"/></a>

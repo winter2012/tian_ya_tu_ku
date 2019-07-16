@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("global","",236,264);
+$z[0][4]['name']="cfg_soft_lang";
+$z[1]=Array("field","",277,296);
+$z[1][4]['name']="title";
+$z[2]=Array("global","",297,323);
+$z[2][4]['name']="cfg_webname";
+$z[3]=Array("field","",364,393);
+$z[3][4]['name']="keywords";
+$z[4]=Array("field","",433,491);
+$z[4][4]['name']="description";
+$z[4][4]['function']="html2text(@me)";
+$z[5]=Array("include","",675,712);
+$z[5][4]['filename']="header.htm";
+$z[6]=Array("field","",970,999);
+$z[6][4]['name']="position";
+$z[7]=Array("list","\r\n				<li>\r\n					<a href=\"[field:arcurl/]\"  class=\"img\" target=\"_blank\"><img src=\"[field:litpic/]\" alt=\"[field:title function='html2text(@me)'/]\"/></a><i class=\"tit\">[field:title/]</i><s></s></a></li>\r\n          ",1282,1545);
+$z[7][4]['pagesize']="20";
+$z[7][4]['titlelen']="24";
+$z[8]=Array("arclist","\r\n          <li><a title=[field:title/] href=\"[field:arcurl/]\" target=\"_blank\">[field:title/]</a><span>[field:pubdate function=MyDate('m-d',@me)/]</span></li>\r\n		  ",1874,2089);
+$z[8][4]['row']="9";
+$z[8][4]['titlelen']="28";
+$z[9]=Array("arclist","\r\n          <li><a title=[field:title/] href=\"[field:arcurl/]\" target=\"_blank\">[field:title/]</a><span>[field:pubdate function=MyDate('m-d',@me)/]</span></li>\r\n		  ",2337,2596);
+$z[9][4]['row']="9";
+$z[9][4]['titlelen']="28";
+$z[9][4]['orderby']="pubdate";
+$z[9][4]['idlist']="";
+$z[9][4]['type']="commend.";
+$z[10]=Array("pagelist","",2884,2955);
+$z[10][4]['listitem']="info,index,end,pre,next,pageno";
+$z[10][4]['listsize']="5";
+$z[11]=Array("arclist","\r\n<li><a href=\"[field:arcurl/]\" class=\"img\" target=\"_blank\"><img src=\"[field:litpic/]\" alt=\"[field:title function='html2text(@me)'/]\" /><i class=\"tit\">[field:textlink/]</i><s></s></a></li>\r\n",3211,3478);
+$z[11][4]['row']="6";
+$z[11][4]['titlelen']="28";
+$z[11][4]['orderby']="click";
+$z[11][4]['idlist']="";
+$z[12]=Array("include","",3610,3645);
+$z[12][4]['filename']="foot.htm";
+
+?>

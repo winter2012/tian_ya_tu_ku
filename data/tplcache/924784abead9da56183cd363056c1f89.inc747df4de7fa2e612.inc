@@ -1,0 +1,46 @@
+<?php
+$z[0]=Array("pagestyle","",0,75);
+$z[0][4]['maxwidth']="800";
+$z[0][4]['ddmaxwidth']="150";
+$z[0][4]['row']="3";
+$z[0][4]['col']="3";
+$z[0][4]['value']="2";
+$z[1]=Array("comments","图集类型会采集时生成此配置是正常的，不过如果后面没有跟着img标记则表示规则无效",77,185);
+$z[2]=Array("img","/uploads/allimg/c121130/135424421c620-344521.jpg",187,277);
+$z[2][4]['ddimg']="";
+$z[2][4]['text']="图 1";
+$z[3]=Array("img","/uploads/allimg/c121130/135424422101450-35F95.jpg",279,370);
+$z[3][4]['ddimg']="";
+$z[3][4]['text']="图 2";
+$z[4]=Array("img","/uploads/allimg/c121130/135424422193130-3D0D.jpg",372,462);
+$z[4][4]['ddimg']="";
+$z[4][4]['text']="图 3";
+$z[5]=Array("img","/uploads/allimg/c121130/1354244222T220-3HY6.jpg",464,553);
+$z[5][4]['ddimg']="";
+$z[5][4]['text']="图 4";
+$z[6]=Array("img","/uploads/allimg/c121130/1354244223I20-3X464.jpg",555,644);
+$z[6][4]['ddimg']="";
+$z[6][4]['text']="图 5";
+$z[7]=Array("img","/uploads/allimg/c121130/1354244224C920-3a364.jpg",646,736);
+$z[7][4]['ddimg']="";
+$z[7][4]['text']="图 6";
+$z[8]=Array("img","/uploads/allimg/c121130/135424422Q1E0-404c4.jpg",738,827);
+$z[8][4]['ddimg']="";
+$z[8][4]['text']="图 7";
+$z[9]=Array("img","/uploads/allimg/c121130/135424422YLF-411533.jpg",829,918);
+$z[9][4]['ddimg']="";
+$z[9][4]['text']="图 8";
+$z[10]=Array("img","/uploads/allimg/c121130/135424422b4060-423206.jpg",920,1011);
+$z[10][4]['ddimg']="";
+$z[10][4]['text']="图 9";
+$z[11]=Array("img","/uploads/allimg/c121130/1354244230I260-4392L.jpg",1013,1104);
+$z[11][4]['ddimg']="";
+$z[11][4]['text']="图 10";
+$z[12]=Array("img","/uploads/allimg/c121130/13542442315aP-444128.jpg",1106,1197);
+$z[12][4]['ddimg']="";
+$z[12][4]['text']="图 11";
+$z[13]=Array("img","/uploads/allimg/c121130/135424423249120-451347.jpg",1199,1292);
+$z[13][4]['ddimg']="";
+$z[13][4]['text']="图 12";
+
+?>

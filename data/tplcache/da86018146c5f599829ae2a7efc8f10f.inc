@@ -1,0 +1,1 @@
+<li><a href="[field:arcurl/]" class="img" target="_blank"><img src="[field:litpic/]" width="150" height="200" alt="[field:title function='html2text(@me)'/]" /><i class="tit">[field:title /]</i><s></s></a></li>

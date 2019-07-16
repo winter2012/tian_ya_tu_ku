@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="data-spm" content="1" />
+<title>{dede:field.title/} - {dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:field.title/}" />
+<link rel="stylesheet" href="{dede:global.cfg_basehost /}/skins/css/global1.css" />
+<link rel="stylesheet" href="{dede:global.cfg_basehost /}/skins/css/detail.css" />
+</head>
+<body>
+{dede:include filename="h.htm"/} 
+<!--内容 start-->
+<div id="content" class="center">
+  <div class="bread"> 当前位置：<span>{dede:field name='position'/}&nbsp;{dede:field.title/}</span> </div>
+  <!--图组简介 start-->
+  <div class="detail-brief clearfix"> <img class="cur-group-pic" src="{dede:field.litpic/}" alt="{dede:field.title/}" />
+    <div class="share-wrap">
+      <h2>{dede:field.title/}</h2>
+      <div class="share"> 
+        <!-- Baidu Button BEGIN -->
+        <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"> <span class="bds_more">分享到：</span> <a class="bds_tsina"></a> <a class="bds_qzone"></a> <a class="bds_tqq"></a> <a class="bds_renren"></a> <a class="bds_t163"></a> <a class="bds_taobao"></a> <a class="bds_kaixin001"></a> <a class="bds_douban"></a> <a class="shareCount"></a> </div>
+        <!-- Baidu Button END --> 
+      </div>
+	  <div class="share"><input type="text" class="shurubox" id="" name="copy_link" value="{dede:field.arcurl/}" style="width:300px;" /> <input type="button" id="linkback" class="linkback" onclick="copyTo();" value="" /></div>
+      <div class="steps">{dede:field name='nowpage'/}/{dede:field name='totalpage'/}</div>
+    </div>
+    <div class="other-pics clearfix"> {dede:prenext get='preimg'/} {dede:prenext get='nextimg'/} </div>
+  </div>
+  <!--图组简介 end--> 
+  <!--图组切换 start-->
+  <div class="content-ad"><script src='http://localhost/plus/ad_js.php?aid=24' language='javascript'></script></div>
+  <div class="detail-content">{dede:field name='imgurls' alt='图片输出区'}
+    <div class="main-pic-wrap"> <div class="imgbox"><a href="javascript:dPlayPre();" class="btn btn-prev"></a> <a href="javascript:dPlayNext();" class="btn btn-next"></a> <img src="/skins/images/loading.jpg" data-original="[field:imgsrc/]" alt="" id="bigimg" /></div> </div>{/dede:field}
+    <div class="pages"> {dede:pagebreak/} </div>
+  </div>
+  <!--图组切换 end--> 
+  
+  <!--最新推荐 start-->
+  <script src='http://localhost/plus/ad_js.php?aid=25' language='javascript'></script>
+  <div class=" new-recommend sh-s1 clearfix">
+    <div class="title">
+      <h2>最新推荐</h2>
+      <!--a class="more" target="_blank" href="#">更多&gt;&gt;</a--> </div>
+    <div class="list">
+      <ul class="clearfix">
+        {dede:arclist row=6 titlelen=16}
+        <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:litpic/]" alt="[field:fulltitle/]" /> <span class="name">[field:title/]</span> </a> </li>
+        {/dede:arclist}
+      </ul>
+    </div>
+  </div>
+  <!--最新推荐 end--> 
+  <!--精彩图片 start-->
+  <div class=" mt50 pic-list1 clearfix">
+    <div class="title-s1">
+      <h2> 精彩图片 </h2>
+    </div>
+    <ul class="clearfix">
+    	{dede:arclist typeid='1,2,3,4,5,6,7,8' getall='0' channelid='2' row=12 titlelen=16 orderby="rand"}
+        <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:litpic/]" alt="[field:fulltitle/]" /> <span class="name">[field:title/]</span> </a> </li>
+        {/dede:arclist}
+    </ul>
+  </div>
+  <!--精彩图片 end--> 
+  
+</div>
+<!--内容 end-->
+{dede:include filename="f1.htm"/}
+<!--baidu share start-->
+<script type="text/javascript" id="bdshare_js" data="type=tools&uid=0" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!--baidu share end-->
+<div style="display:none;"><script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field.id/}&mid={dede:field.mid/}" type='text/javascript' language="javascript"></script></div>
+</body>
+</html>
+<script language="javascript" type="text/javascript">
+var img = $('#bigimg');
+img.load(function(){
+var theimage = new Image();
+theimage.src = img.attr("src");
+var imgwidth=theimage.width;
+if (imgwidth>810)
+{
+imgwidth=810;
+}
+$('.imgbox').css('width',imgwidth+190);
+});
+
+var shortname = "{dede:global.art_shortname/}";
+var npage = {dede:field name='nowpage'/};
+var totalpage = {dede:field name='totalpage'/};
+var namehand = '{dede:field name='namehand'/}';
+var displaytype = '{dede:field name='displaytype'/}';
+var gtimer = null;
+//上一张
+function dPlayPre(){
+	
+	if(npage<2)
+	{
+			alert("这是第一页");
+	}
+	else
+	{
+		if(npage==2) {
+			if(namehand!='') location.href = namehand+shortname;
+			else location.href = "view.php?aid={dede:field name='id'/}";
+		} else if(displaytype=='st' && namehand!='') {
+			location.href = namehand+"_"+(npage-1)+shortname;
+		} else {
+			location.href = "view.php?aid={dede:field name='id'/}&pageno="+(npage-1);
+		}
+	}
+}
+
+//下一张
+function dPlayNext()
+{
+	if(npage==totalpage) { alert("没有了哦"); }
+	else
+	{
+		if(displaytype=='st' && namehand!='') location.href = namehand+"_"+(npage+1)+shortname;
+		else location.href = "view.php?aid={dede:field name='id'/}&pageno="+(npage+1);
+	}
+}
+function copyToClipboard(txt) {
+    if (window.clipboardData) {
+        window.clipboardData.clearData();
+        window.clipboardData.setData("Text", txt);
+        alert("已经成功复制！");
+    } else if (navigator.userAgent.indexOf("Opera") != -1) {
+        window.location = txt;
+    } else if (window.netscape) {
+        try {
+            netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+        } catch(e) {
+            alert("被浏览器拒绝！\n请在浏览器地址栏输入'about:config'并回车\n然后将'signed.applets.codebase_principal_support'设置为'true'");
+        }
+        var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);
+        if (!clip) return;
+        var trans = Components.classes['@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);
+        if (!trans) return;
+        trans.addDataFlavor('text/unicode');
+        var str = new Object();
+        var len = new Object();
+        var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);
+        var copytext = txt;
+        str.data = copytext;
+        trans.setTransferData("text/unicode", str, copytext.length * 2);
+        var clipid = Components.interfaces.nsIClipboard;
+        if (!clip) return false;
+        clip.setData(trans, null, clipid.kGlobalClipboard);
+        alert("已经成功复制！");
+    }
+}
+function copyTo() {
+	$('#linkback').attr("class","linkback2");
+    var txt = $("input[name=copy_link]").val();
+    copyToClipboard(txt);
+}
+</script>

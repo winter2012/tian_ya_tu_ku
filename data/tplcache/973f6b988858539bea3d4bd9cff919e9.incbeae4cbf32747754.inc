@@ -1,0 +1,45 @@
+<?php
+$z[0]=Array("sppage","",0,59);
+$z[0][4]['sptype']="full";
+$z[0][4]['srul']="1";
+$z[0][4]['erul']="5";
+$z[1]=Array("previewurl","http://www.yirenw.com/pic/photo/40121.html",61,138);
+$z[2]=Array("keywordtrim","",140,177);
+$z[3]=Array("descriptiontrim","",179,224);
+$z[4]=Array("item","\r\n   {dede:match}<div class=\"tit\">[ÄÚÈİ]</h1>{/dede:match}\r\n   {dede:trim replace=\"\"}<a([^>]*)>{/dede:trim}\r\n{dede:trim replace=\"\"}</a>{/dede:trim}\r\n{dede:trim replace=\"\"}<h1([^>]*)>{/dede:trim}\r\n{dede:trim replace=\"\"}</h1>{/dede:trim}\r\n   {dede:function}{/dede:function}\r\n",226,565);
+$z[4][4]['field']="title";
+$z[4][4]['value']="";
+$z[4][4]['isunit']="";
+$z[4][4]['isdown']="";
+$z[5]=Array("item","\r\n   {dede:match}{/dede:match}\r\n   \r\n   {dede:function}{/dede:function}\r\n",565,705);
+$z[5][4]['field']="writer";
+$z[5][4]['value']="";
+$z[5][4]['isunit']="";
+$z[5][4]['isdown']="";
+$z[6]=Array("item","\r\n   {dede:match}{/dede:match}\r\n   \r\n   {dede:function}{/dede:function}\r\n",705,845);
+$z[6][4]['field']="source";
+$z[6][4]['value']="";
+$z[6][4]['isunit']="";
+$z[6][4]['isdown']="";
+$z[7]=Array("item","\r\n   {dede:match}{/dede:match}\r\n   \r\n   {dede:function}{/dede:function}\r\n",845,986);
+$z[7][4]['field']="pubdate";
+$z[7][4]['value']="";
+$z[7][4]['isunit']="";
+$z[7][4]['isdown']="";
+$z[8]=Array("item","\r\n   {dede:match}id=\"gundongtu\">[ÄÚÈİ]</div>{/dede:match}\r\n   \r\n   {dede:function}@me=TurnImageTag(@me);\r\n\$str_1=\"a.jpg\";\r\n\$str_2=\".jpg\";\r\n@me=str_replace(\$str_1,\$str_2,@me);\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n{/dede:function}\r\n",986,1270);
+$z[8][4]['field']="imgurls";
+$z[8][4]['value']="";
+$z[8][4]['isunit']="1";
+$z[8][4]['isdown']="1";
+$z[9]=Array("item","\r\n   {dede:match}<div class=\"text\">[ÄÚÈİ]<div class=\"fenxiang\">{/dede:match}\r\n   {dede:trim replace=\"\"}<script([^>]*)>(.*)</script>{/dede:trim}\r\n{dede:trim replace=\"\"}<div([^.]*)>{/dede:trim}\r\n{dede:trim replace=\"\"}</div>{/dede:trim}\r\n   {dede:function}{/dede:function}\r\n",1270,1608);
+$z[9][4]['field']="body";
+$z[9][4]['value']="";
+$z[9][4]['isunit']="1";
+$z[9][4]['isdown']="1";
+$z[10]=Array("item","\r\n   {dede:match}{/dede:match}\r\n   \r\n   {dede:function}{/dede:function}\r\n",1608,1748);
+$z[10][4]['field']="imgurl";
+$z[10][4]['value']="";
+$z[10][4]['isunit']="";
+$z[10][4]['isdown']="";
+
+?>

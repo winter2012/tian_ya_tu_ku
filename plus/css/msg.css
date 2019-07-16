@@ -1,0 +1,6 @@
+@charset "gb2312";
+/* CSS Document */
+body,td,th {font-family: Arial, Helvetica, sans-serif;font-size: 12px;}
+body {background-color: #EEE;color: #444;}
+.msg {background-image: url(../images/msg.gif);background-repeat: no-repeat;height: 90px;width: 263px;line-height: 19px;margin: 0px auto;padding-top: 59px;padding-left: 140px;text-align:left;}
+.msg span {font-weight: bold;color: #710B9F;}

@@ -1,0 +1,45 @@
+<?php
+$z[0]=Array("global","",236,264);
+$z[0][4]['name']="cfg_soft_lang";
+$z[1]=Array("field","",277,296);
+$z[1][4]['name']="title";
+$z[2]=Array("global","",297,323);
+$z[2][4]['name']="cfg_webname";
+$z[3]=Array("field","",364,393);
+$z[3][4]['name']="keywords";
+$z[4]=Array("field","",433,491);
+$z[4][4]['name']="description";
+$z[4][4]['function']="html2text(@me)";
+$z[5]=Array("global","",542,570);
+$z[5][4]['name']="cfg_basehost";
+$z[6]=Array("include","",713,750);
+$z[6][4]['filename']="header.htm";
+$z[7]=Array("global","",1019,1046);
+$z[7][4]['name']="cfg_basehost";
+$z[8]=Array("global","",1048,1074);
+$z[8][4]['name']="cfg_webname";
+$z[9]=Array("field","",1093,1112);
+$z[9][4]['name']="title";
+$z[10]=Array("list","\r\n				<li>\r\n					<a href=\"[field:arcurl/]\"  class=\"img\" target=\"_blank\"><img src=\"[field:litpic/]\" alt=\"[field:title function='html2text(@me)'/]\"/><i class=\"tit\">[field:title/]</i><s></s></a></li>\r\n          ",1301,1560);
+$z[10][4]['pagesize']="20";
+$z[10][4]['titlelen']="24";
+$z[11]=Array("arclist","\r\n          <li><a title=[field:title/] href=\"[field:arcurl/]\" target=\"_blank\">[field:title/]</a><span>[field:pubdate function=MyDate('m-d',@me)/]</span></li>\r\n		  ",1919,2134);
+$z[11][4]['row']="9";
+$z[11][4]['titlelen']="28";
+$z[12]=Array("arclist","\r\n          <li><a title=[field:title/] href=\"[field:arcurl/]\" target=\"_blank\">[field:title/]</a><span>[field:pubdate function=MyDate('m-d',@me)/]</span></li>\r\n		  ",2382,2624);
+$z[12][4]['row']="9";
+$z[12][4]['titlelen']="28";
+$z[12][4]['orderby']="pubdate";
+$z[12][4]['flag']="c";
+$z[13]=Array("pagelist","",2918,2989);
+$z[13][4]['listitem']="info,index,end,pre,next,pageno";
+$z[13][4]['listsize']="5";
+$z[14]=Array("arclist","\r\n<li><a href=\"[field:arcurl/]\" class=\"img\" target=\"_blank\"><img src=\"[field:litpic/]\" alt=\"[field:title function='html2text(@me)'/]\" /><i class=\"tit\">[field:title /]</i><s></s></a></li>\r\n",3251,3516);
+$z[14][4]['row']="6";
+$z[14][4]['titlelen']="28";
+$z[14][4]['orderby']="click";
+$z[14][4]['idlist']="";
+$z[15]=Array("include","",3648,3683);
+$z[15][4]['filename']="foot.htm";
+
+?>

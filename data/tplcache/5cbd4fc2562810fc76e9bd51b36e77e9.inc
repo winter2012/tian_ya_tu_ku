@@ -1,0 +1,1 @@
+<a href="[field:arcurl/]" target="_blank" target="_blank"><img  src="[field:first_imgurl function='thumb(@me,235,415)'/]" alt="[field:fulltitle /]" width="235" height="415" /><i class="tit">[field:title /]</i></a>

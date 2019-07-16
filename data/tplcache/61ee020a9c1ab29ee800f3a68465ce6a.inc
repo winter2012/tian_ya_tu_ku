@@ -1,0 +1,1 @@
+<li class="first"> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:picname/]" alt="[field:fulltitle/]"[field:global name='autoindex' runphp='yes']@me=(@me==1?' width="280" height="396"':' width="130" height="170"');[/field:global] /> <span class="name">[field:title/]</span> </a> </li>

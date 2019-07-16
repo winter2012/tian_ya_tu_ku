@@ -1,0 +1,4 @@
+<?php
+$z[0]=Array("listconfig","\r\n{dede:noteinfo notename=\"Ã÷ĞÇ xgmm\" channelid=\"2\" macthtype=\"string\"\r\n    refurl=\"http://\" sourcelang=\"gb2312\" cosort=\"asc\"\r\n  isref=\"no\" exptime=\"10\" usemore=\"0\" /}\r\n{dede:listrule sourcetype=\"batch\" rssurl=\"http://\" regxurl=\"http://www.xgmm.cc/mm/mingxingmeinv/list_7_(*).html\"\r\nstartid=\"1\" endid=\"2\" addv=\"1\" urlrule=\"area\" musthas=\"\"\r\n nothas=\"\" listpic=\"0\" usemore=\"0\"}\r\n    {dede:addurls}{/dede:addurls}\r\n    {dede:batchrule}{/dede:batchrule}\r\n    {dede:regxrule}{/dede:regxrule}\r\n    {dede:areastart}<div class=\"main\">{/dede:areastart}\r\n    {dede:areaend}<div class=\"pages\">{/dede:areaend}\r\n{/dede:listrule}\r\n\r\n",0,655);
+
+?>

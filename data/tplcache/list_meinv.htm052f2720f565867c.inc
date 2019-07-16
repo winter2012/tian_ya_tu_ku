@@ -1,0 +1,47 @@
+<?php
+$z[0]=Array("global","",236,264);
+$z[0][4]['name']="cfg_soft_lang";
+$z[1]=Array("field","",277,296);
+$z[1][4]['name']="title";
+$z[2]=Array("global","",297,323);
+$z[2][4]['name']="cfg_webname";
+$z[3]=Array("field","",364,393);
+$z[3][4]['name']="keywords";
+$z[4]=Array("field","",433,491);
+$z[4][4]['name']="description";
+$z[4][4]['function']="html2text(@me)";
+$z[5]=Array("include","",765,800);
+$z[5][4]['filename']="head.htm";
+$z[6]=Array("field","",833,862);
+$z[6][4]['name']="position";
+$z[7]=Array("field","",1022,1051);
+$z[7][4]['name']="typename";
+$z[8]=Array("list","\r\n	       <li><a href=\"[field:arcurl/]\"><img src=\"[field:litpic/]\" border='0' width='130' height='170' alt=\"[field:title function='html2text(@me)'/]\"/></a>\r\n			<h3><a href=\"[field:arcurl/]\">[field:title/]</a></h3>\r\n			<p>时间：[field:pubdate function=\"GetDateMK(@me)\"/]</p>\r\n	       </li>",1139,1476);
+$z[8][4]['pagesize']="24";
+$z[8][4]['titlelen']="20";
+$z[9]=Array("arclist","\r\n          <li><em>[field:global name=autoindex /]</em><a href=\"[field:arcurl/]\">[field:title/]</a>\r\n        </li>\r\n      ",1768,1959);
+$z[9][4]['typeid']="1,2,3,4,5,6";
+$z[9][4]['titlelen']="38";
+$z[9][4]['row']="9";
+$z[10]=Array("arclist","\r\n          <li> <a href=\"[field:arcurl/]\" title=\"[field:title/]\"><img src=\"[field:litpic/]\" border='0' width='130' height='170'/></a>[field:title/]\r\n	    </li>",2188,2412);
+$z[10][4]['row']="4";
+$z[10][4]['titlelen']="20";
+$z[10][4]['orderby']="click";
+$z[11]=Array("field","",2510,2539);
+$z[11][4]['name']="typename";
+$z[12]=Array("arclist","\r\n          <li><em>[field:global name=autoindex /]</em><a href=\"[field:arcurl/]\">[field:title/]</a>\r\n        </li>\r\n      ",2623,2807);
+$z[12][4]['titlelen']="38";
+$z[12][4]['row']="9";
+$z[12][4]['orderby']="click";
+$z[13]=Array("pagelist","",2914,2985);
+$z[13][4]['listitem']="info,index,end,pre,next,pageno";
+$z[13][4]['listsize']="5";
+$z[14]=Array("arclist","\r\n		<li><a href=\"[field:arcurl/]\" title=\"[field:title/]\"><img src=\"[field:litpic/]\" border='0' width='130' height='170'/></a>\r\n		  <h3>[field:title/]</h3>\r\n		  <p>时间：[field:pubdate function=\"GetDateMK(@me)\"/]</p>  \r\n	    </li>",3230,3527);
+$z[14][4]['row']="6";
+$z[14][4]['channelid']="2";
+$z[14][4]['titlelen']="20";
+$z[14][4]['flag']="c";
+$z[15]=Array("include","",3551,3588);
+$z[15][4]['filename']="footer.htm";
+
+?>

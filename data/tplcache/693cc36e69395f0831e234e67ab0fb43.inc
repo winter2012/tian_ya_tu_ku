@@ -1,0 +1,1 @@
+<img alt="[field:title/]" src="[field:litpic/]" onclick="location.href='[field:arcurl/]';" style="display: none; ">

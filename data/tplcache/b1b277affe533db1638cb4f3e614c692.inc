@@ -1,0 +1,1 @@
+<li><a href="[field:arcurl/]"><img alt="[field:fulltitle/]" data-original="[field:smpicname/]" width="150" height="60" bigpic="[field:picname/]" title="[field:fulltitle/]" /></a></li>

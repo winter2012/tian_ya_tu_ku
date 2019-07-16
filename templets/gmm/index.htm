@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="{dede:global.cfg_basehost /}/skins/css/style.css" rel="stylesheet" media="screen" type="text/css" />
+<style>.nav ul li.lhome a{background:url('{dede:global.cfg_basehost /}/skins/images/nav_a_h.png') repeat-x; width:87px; height:53px; color:#fff;}</style>
+<script src="/m/css/sanfengclub.js" 
+
+type="text/javascript"></script>
+<script type="text/javascript">uaredirect("/m");</script>
+
+
+
+</head>
+<body>
+<div class="header">
+  <div class="w">
+    <div class="logo"><a href="{dede:global.cfg_basehost /}"><img src="{dede:global.cfg_basehost /}/skins/images/logo1.png" height="50" width="122" alt="{dede:global.cfg_webname/}"/></a></div>
+    <div class="nav">
+      <ul>
+      <li class="line"></li>
+        <li class="lhome"><a href='{dede:global.cfg_basehost /}'>首页</a></li>
+        <li class="line"></li>
+      {dede:channel type='top' row='9' currentstyle="<li  class='hover'><a href='~typelink~'>~typename~</a></li><li class='line'></li>"}
+      <li><a href="[field:typeurl/]"[field:id runphp='yes']@me=(@me=='8'?' target="_blank"':'');[/field:id]>[field:typename/]</a></li>
+      <li class='line'></li>
+      {/dede:channel} 
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="index-box">
+  <div class="slide">
+    <div class="FocusPic">
+      <div class="content" id="main-slide">
+        <div class="changeDiv">
+{dede:arclist row=5 flag=f addfields='index_url' channelid='2'}
+<a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"><img src="[field:index_url function='GetOneImgUrl(@me,1)'/]" alt="[field:fulltitle/]" width="745" height="340" /></a>
+{/dede:arclist}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="newpic">
+    <div class="title-a">
+      <h2>今日最新</h2>
+    </div>
+    <ul class="d1">
+    {dede:arclist row=10  titlelen=30}
+        <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a> </li>
+        {/dede:arclist}
+    </ul>
+  </div>
+</div>
+<div class="main">
+  <div class="title-a mt20">
+    <h2>最新推荐</h2>
+  </div>
+  <div class="pic-list mb7">
+    <ul>
+    {dede:arclist row=4 flag='c' titlelen=30}     
+       <li>
+      	
+        <div class="picbox"><img data-original="[field:litpic/]" alt="[field:fulltitle/]" width="235" height="350" />
+          <div><b><a target="_blank" href="[field:arcurl/]"></a></b></div>
+        </div>
+        <div class="name"><a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></div>
+      </li>  
+    {/dede:arclist}
+    </ul>
+  </div>
+<!--广告-->
+  <div class="title-a">
+    <h2>{dede:type typeid='8'}[field:typename /]{/dede:type}</h2>
+  </div>
+  <div class="pic-list">
+    <ul class="mb7">
+      {dede:arclist row=1 typeid='8' flag='a' titlelen=30}     
+       <li class="l">
+      	<div class="recommend"></div>
+        <div class="picbox"><img data-original="[field:first_imgurl function='thumb(@me,490,350)'/]" alt="[field:fulltitle/]" width="490" height="350" />
+          <div><b><a target="_blank" href="[field:arcurl/]"></a></b></div>
+        </div>
+        <div class="name"><a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></div>
+      </li>  
+    {/dede:arclist}
+		{dede:arclist row=6 typeid='8' noflag='a' titlelen=30}     
+       <li>
+      	
+        <div class="picbox"><img data-original="[field:litpic/]" alt="[field:fulltitle/]" width="235" height="350" />
+          <div><b><a target="_blank" href="[field:arcurl/]"></a></b></div>
+        </div>
+        <div class="name"><a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></div>
+      </li>  
+    {/dede:arclist}
+     
+    </ul>
+  </div>
+  <div class="title-a" style="margin-top:10px;">
+    <h2>{dede:type typeid='1'}[field:typename /]{/dede:type}</h2>
+  </div>
+  <div class="pic-list">
+    <ul class="mb7">
+     {dede:arclist row=1 typeid='1' flag='a' titlelen=30}     
+       <li class="l">
+      	<div class="recommend"></div>
+        <div class="picbox"><img data-original="[field:first_imgurl function='thumb(@me,490,350)'/]" alt="[field:fulltitle/]" width="490" height="350" />
+          <div><b><a target="_blank" href="[field:arcurl/]"></a></b></div>
+        </div>
+        <div class="name"><a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></div>
+      </li>  
+    {/dede:arclist}
+
+     {dede:arclist row=6 typeid='1' noflag='a' titlelen=30}     
+       <li>
+      	
+        <div class="picbox"><img data-original="[field:litpic/]" alt="[field:fulltitle/]" width="235" height="350" />
+          <div><b><a target="_blank" href="[field:arcurl/]"></a></b></div>
+        </div>
+        <div class="name"><a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></div>
+      </li>  
+    {/dede:arclist}
+
+    </ul>
+  </div>
+  <div class="title-a">
+    <h2>{dede:type typeid='5'}[field:typename /]{/dede:type}</h2>
+  </div>
+  <div class="pic-list">
+    <ul class="mb7">
+      {dede:arclist row=1 typeid='5' flag='a' titlelen=30}     
+       <li class="l">
+      	<div class="recommend"></div>
+        <div class="picbox"><img data-original="[field:first_imgurl function='thumb(@me,490,350)'/]" alt="[field:fulltitle/]" width="490" height="350" />
+          <div><b><a target="_blank" href="[field:arcurl/]"></a></b></div>
+        </div>
+        <div class="name"><a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></div>
+      </li>  
+    {/dede:arclist}
+     {dede:arclist row=2 typeid='5' noflag='a' titlelen=30}     
+       <li>
+      	
+        <div class="picbox"><img data-original="[field:litpic/]" alt="[field:fulltitle/]" width="235" height="350" />
+          <div><b><a target="_blank" href="[field:arcurl/]"></a></b></div>
+        </div>
+        <div class="name"><a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></div>
+      </li>  
+    {/dede:arclist}
+
+    </ul>
+  </div>
+  <div class="title-a">
+    <h2>{dede:type typeid='8'}[field:typename /]{/dede:type}</h2>
+  </div>
+  <div class="pic-list">
+    <ul class="mb7">
+      {dede:arclist row=4 typeid='8' titlelen=30}     
+       <li>
+      	
+        <div class="picbox"><img data-original="[field:litpic/]" alt="[field:fulltitle/]" width="235" height="350" />
+          <div><b><a target="_blank" href="[field:arcurl/]"></a></b></div>
+        </div>
+        <div class="name"><a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></div>
+      </li>  
+    {/dede:arclist}
+
+    </ul>
+  </div>
+  <div class="title-a">
+    <h2>{dede:type typeid='6'}[field:typename /]{/dede:type}</h2>
+  </div>
+  <div class="pic-list">
+    <ul class="mb7">
+       {dede:arclist row=1 typeid='6' flag='a' titlelen=30}     
+       <li class="l">
+      	<div class="recommend"></div>
+        <div class="picbox"><img data-original="[field:litpic/]" alt="[field:first_imgurl function='thumb(@me,490,350)'/]" width="490" height="350" />
+          <div><b><a target="_blank" href="[field:arcurl/]"></a></b></div>
+        </div>
+        <div class="name"><a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></div>
+      </li>  
+    {/dede:arclist}
+{dede:arclist row=2 typeid='6' noflag='a' titlelen=30}     
+       <li>
+      	
+        <div class="picbox"><img data-original="[field:litpic/]" alt="[field:fulltitle/]" width="235" height="350" />
+          <div><b><a target="_blank" href="[field:arcurl/]"></a></b></div>
+        </div>
+        <div class="name"><a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></div>
+      </li>  
+    {/dede:arclist}
+
+    </ul>
+  </div>
+  <div class="title-a"> <strong>友情链接</strong> </div>
+  <div class="w">
+    <div class="linkbox-t"></div>
+    <div class="linkbox">
+      <ul class="txt-links">
+	
+	{dede:flink row='20' typeid='0' type='text'/}
+      </ul>
+    </div>
+  </div>
+</div>
+{dede:include filename="f.htm"/}
+<script type="text/javascript" src="{dede:global.cfg_basehost /}/skins/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_basehost /}/skins/js/jquery.sgallery.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_basehost /}/skins/js/global.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_basehost /}/skins/js/jquery.lazyload.min.js"></script>
+<!--[if IE 6]>
+<script src="{dede:global.cfg_basehost /}/skins/js/png.js"></script>
+<script>
+  DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+<script type="text/javascript"> 
+$(function(){
+	new slide("#main-slide","cur",745,340,1);//焦点图
+})
+</script>
+</body>
+</html>

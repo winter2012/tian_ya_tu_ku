@@ -1,0 +1,1 @@
+<a class="cur-link" href="[field:arcurl/]" title="[field:fulltitle/]"> <img src="[field:first_imgurl function='thumb(@me,770,370)'/]" class="mask" style="display: block;" alt="[field:fulltitle/]" width="770" height="370" /> <img src="[field:first_imgurl function='thumb(@me,770,370)'/]" class="top" alt="[field:fulltitle/]" width="770" height="370" style="display: block;" /> </a>

@@ -1,0 +1,1 @@
+<a class="more" target="_blank" href="[field:typeurl/]">¸ü¶à>></a>

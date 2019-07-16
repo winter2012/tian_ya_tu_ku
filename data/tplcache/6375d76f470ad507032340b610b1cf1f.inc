@@ -1,0 +1,19 @@
+{dede:pagestyle maxwidth='600' pagepicnum='12' ddmaxwidth='200' row='0' col='0' value='2'/}
+{dede:img ddimg='/uploads/allimg/c120410/133402K3421330-15Y3.jpg' text='ͼ 1' width='500' height='750'} /uploads/allimg/c120410/133402K3421330-15Y3.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K34bZ-23M0.jpg' text='ͼ 2' width='610' height='915'} /uploads/allimg/c120410/133402K34bZ-23M0.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K35614F-312A.jpg' text='ͼ 3' width='610' height='915'} /uploads/allimg/c120410/133402K35614F-312A.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K3632R0-4M62.jpg' text='ͼ 4' width='610' height='915'} /uploads/allimg/c120410/133402K3632R0-4M62.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K3G5F-5Q55.jpg' text='ͼ 5' width='610' height='915'} /uploads/allimg/c120410/133402K3G5F-5Q55.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K3OW30-63213.jpg' text='ͼ 6' width='610' height='915'} /uploads/allimg/c120410/133402K3OW30-63213.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K3VY40-H202.jpg' text='ͼ 7' width='610' height='915'} /uploads/allimg/c120410/133402K3VY40-H202.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K394M30-WT1.jpg' text='ͼ 8' width='610' height='915'} /uploads/allimg/c120410/133402K394M30-WT1.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K4025430-92457.jpg' text='ͼ 9' width='610' height='915'} /uploads/allimg/c120410/133402K4025430-92457.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K4120520-109C3.jpg' text='ͼ 10' width='610' height='915'} /uploads/allimg/c120410/133402K4120520-109C3.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K4191360-11K39.jpg' text='ͼ 11' width='610' height='915'} /uploads/allimg/c120410/133402K4191360-11K39.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K42Q240-12K60.jpg' text='ͼ 12' width='610' height='915'} /uploads/allimg/c120410/133402K42Q240-12K60.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K43R1F-139493.jpg' text='ͼ 13' width='610' height='915'} /uploads/allimg/c120410/133402K43R1F-139493.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K44B540-14ZE.jpg' text='ͼ 14' width='610' height='915'} /uploads/allimg/c120410/133402K44B540-14ZE.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K4543330-151127.jpg' text='ͼ 15' width='610' height='915'} /uploads/allimg/c120410/133402K4543330-151127.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K4612040-1A4V.jpg' text='ͼ 16' width='610' height='915'} /uploads/allimg/c120410/133402K4612040-1A4V.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K4E4Z-1I640.jpg' text='ͼ 17' width='610' height='915'} /uploads/allimg/c120410/133402K4E4Z-1I640.jpg {/dede:img}
+{dede:img ddimg='/uploads/allimg/c120410/133402K4M4E0-1Q519.jpg' text='ͼ 18' width='610' height='915'} /uploads/allimg/c120410/133402K4M4E0-1Q519.jpg {/dede:img}

@@ -1,0 +1,29 @@
+<?php
+$tmpdir = "d7c6e32495dddb51";
+$vtime = 20130922;
+$files[0] = "plus/bshare.php";
+$files[1] = "include/common.inc.php";
+$files[2] = "include/dedetag.class.php";
+$files[3] = "include/dedetemplate.class.php";
+$files[4] = "include/helpers/channelunit.helper.php";
+$files[5] = "include/helpers/util.helper.php";
+$files[6] = "member/album_add.php";
+$files[7] = "member/soft_add.php";
+$files[8] = "include/dedesql.class.php";
+$files[9] = "dede/templets/feedback_edit.htm";
+$files[10] = "dede/templets/feedback_main.htm";
+$files[11] = "plus/feedback_ajax.php";
+$files[12] = "include/dialog/config.php";
+$files[13] = "member/inc/space_action.php";
+$files[14] = "plus/feedback.php";
+$files[15] = "include/payment/alipay.php";
+$files[16] = "include/payment/yeepay.php";
+$fileConut = 16;
+$sqls[] = "20130401.sql";
+$sqls[] = "20130402.sql";
+$sqls[] = "20130422.sql";
+$sqls[] = "20130606.sql";
+$sqls[] = "20130607.sql";
+$sqls[] = "20130715.sql";
+$sqls[] = "20130922.sql";
+?>

@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>{dede:field.seotitle /} - {dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_basehost /}/skins/css/style.css" rel="stylesheet" media="screen" type="text/css" />
+
+<script src="/m/css/sanfengclub.js" type="text/javascript"></script>
+<script type="text/javascript">uaredirect("/m/list.php?tid={dede:field.id/}");</script>
+
+
+
+</head>
+<body>
+{dede:include filename="h.htm"/}
+<div class="tj"></div>
+<div class="main">
+  <div class="pic-list mb20 list">
+    <ul>
+    {dede:list pagesize='20' titlelen=36}
+    <li>
+    	[field:ctx/]
+        <div class="picbox"><img data-original="[field:litpic/]" alt="[field:fulltitle/]" width="235" height="350" />
+          <div><b><a target="_blank" href="[field:arcurl/]"></a></b></div>
+        </div>
+        <div class="name"><a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></div>
+      </li>
+    {/dede:list}
+ 
+    </ul>
+  </div>
+</div>
+<div class="pages">
+{dede:pagelist listitem="index,end,pre,next,pageno" listsize="5"/}
+ </div>
+</div>
+{dede:include filename="f.htm"/}
+<script type="text/javascript" src="{dede:global.cfg_basehost /}/skins/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_basehost /}/skins/js/jquery.sgallery.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_basehost /}/skins/js/global.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_basehost /}/skins/js/jquery.lazyload.min.js"></script>
+<!--[if IE 6]>
+<script src="{dede:global.cfg_basehost /}/skins/js/png.js"></script>
+<script>
+  DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+</body>
+</html>

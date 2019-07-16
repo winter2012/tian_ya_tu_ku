@@ -1,0 +1,1 @@
+<div class="swList l"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" border='0' width='180' height='280' alt="[field:title function='html2text(@me)'/]" /></a><strong><a href="[field:arcurl/]" target="_blank">[field:title/]</a></strong></div>

@@ -1,0 +1,1 @@
+<li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-lazy="[field:indexlitpic/]" width="60" height="80" alt="[field:fulltitle/]" /> <span class="name">[field:title/]</span> </a> </li>

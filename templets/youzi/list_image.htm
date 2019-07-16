@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="data-spm" content="1" />
+<title>{dede:field.seotitle /} - {dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" href="{dede:global.cfg_basehost /}/skins/css/global1.css" />
+<link rel="stylesheet" href="{dede:global.cfg_basehost /}/skins/css/category.css" />
+<style>
+.new-recommend .list ul{padding:0 0 0 20px;}
+</style>
+</head>
+<body>
+{dede:include filename="h.htm"/}
+<!--内容 start-->
+<div id="content" class="center"> 
+  <!--最新推荐 start-->
+  <div class=" new-recommend sh-s1 clearfix">
+    <div class="title">
+      <h2>最新推荐</h2>
+      <!--a class="more" target="_blank" href="#">更多&gt;&gt;</a--> </div>
+    <div class="list">
+      <ul class="clearfix">
+      	{dede:arclist row='6' flag='c' titlelen=16  channelid='2'}
+        <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:litpic/]" title="[field:fulltitle/]" /> <span class="name">[field:title/]</span> </a> </li>
+        {/dede:arclist}
+      </ul>
+    </div>
+  </div>
+  <!--最新推荐 end-->
+  <div class=" mt50 pic-list1 clearfix">
+    <div class="title-s1">
+      <h2> {dede:field.typename/} </h2>
+      <div class="page-status-top"> {dede:pagelist listitem="info,xxnt" listsize="1"/} </div>
+    </div>
+    <ul class="clearfix">
+      {dede:list pagesize='24' titlelen=16}
+      <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:litpic/]" alt="[field:fulltitle/]" width="130" height="170" /> <span class="name">[field:title/]</span> </a> </li>
+      {/dede:list}
+    </ul>
+    <div class="pages"> {dede:pagelist listitem="pre,next,pageno" listsize="5"/} </div>
+  </div>
+</div>
+<!--内容 end-->
+{dede:include filename="f1.htm"/}
+</body>
+</html>

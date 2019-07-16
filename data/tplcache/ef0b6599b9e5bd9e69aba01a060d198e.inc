@@ -1,0 +1,1 @@
+<a href='/[field:filename/]' target='_blank'>[field:title/]</a><b>&#8226;</b>

@@ -1,0 +1,23 @@
+<?php
+$z[0]=Array("field","生活,模特,,",0,52);
+$z[0][4]['name']="keywords";
+$z[1]=Array("field","",54,98);
+$z[1][4]['name']="description";
+$z[2]=Array("field","美空模特生活照",100,152);
+$z[2][4]['name']="title";
+$z[3]=Array("field","",154,193);
+$z[3][4]['name']="writer";
+$z[4]=Array("field","",195,234);
+$z[4][4]['name']="source";
+$z[5]=Array("field","",236,276);
+$z[5][4]['name']="pubdate";
+$z[6]=Array("field","",278,315);
+$z[6][4]['name']="body";
+$z[7]=Array("field","",317,356);
+$z[7][4]['name']="imgurl";
+$z[8]=Array("field","\r\n{dede:pagestyle maxwidth='800' ddmaxwidth='150' row='3' col='3' value='2'/}\r\n{dede:comments}图集类型会采集时生成此配置是正常的，不过如果后面没有跟着img标记则表示规则无效{/dede:comments}\r\n{dede:img ddimg='' text='图 1'}/uploads/allimg/c121130/1354240MW64P-R3052.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 2'}/uploads/allimg/c121130/1354240M92Y10-SKZ.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 3'}/uploads/allimg/c121130/1354240Ma51Z-TJ60.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 4'}/uploads/allimg/c121130/1354240N0264Z-U2b7.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 5'}/uploads/allimg/c121130/1354240N0P620-VR05.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 6'}/uploads/allimg/c121130/1354240N1321Z-W45B.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 7'}/uploads/allimg/c121130/1354240N1O3Z-X32K.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 8'}/uploads/allimg/c121130/1354240N252C0-Y6328.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 9'}/uploads/allimg/c121130/1354240N304440-Z2021.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 10'}/uploads/allimg/c121130/1354240N34T0-91W55.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 11'}/uploads/allimg/c121130/1354240N391950-9231O.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 12'}/uploads/allimg/c121130/1354240N431P-939163.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 13'}/uploads/allimg/c121130/1354240N4N2P-94a40.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 14'}/uploads/allimg/c121130/1354240N52MF-95M37.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 15'}/uploads/allimg/c121130/1354240N5JN0-9E264.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 16'}/uploads/allimg/c121130/1354240N624a0-aR31.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 17'}/uploads/allimg/c121130/1354240ND040-b1610.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 18'}/uploads/allimg/c121130/1354240NK0960-c5536.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 19'}/uploads/allimg/c121130/1354240NQ2130-1002414.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 20'}/uploads/allimg/c121130/1354240NW4060-1011639.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 21'}/uploads/allimg/c121130/1354240N924S0-1022J2.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 22'}/uploads/allimg/c121130/1354240N9B0P-103M21.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 23'}/uploads/allimg/c121130/1354240O02DZ-1049141.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 24'}/uploads/allimg/c121130/1354240O062D0-105JX.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 25'}/uploads/allimg/c121130/1354240O112D0-10BG1.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 26'}/uploads/allimg/c121130/1354240O1L5Z-10OO4.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 27'}/uploads/allimg/c121130/1354240O233420-10T4O.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 28'}/uploads/allimg/c121130/1354240O2SQ0-1092552.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 29'}/uploads/allimg/c121130/1354240O345E0-1109351.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 30'}/uploads/allimg/c121130/1354240O4013Z-1113Z7.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 31'}/uploads/allimg/c121130/1354240O4I920-11250M.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 32'}/uploads/allimg/c121130/1354240O523560-1133210.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 33'}/uploads/allimg/c121130/1354240O5VA0-1145024.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 34'}/uploads/allimg/c121130/1354240O63M60-1152432.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 35'}/uploads/allimg/c121130/1354240OD11F-11EU3.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 36'}/uploads/allimg/c121130/1354240OH6330-11O028.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 37'}/uploads/allimg/c121130/1354240ON5460-11RY6.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 38'}/uploads/allimg/c121130/1354240OT13F-119B53.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 39'}/uploads/allimg/c121130/1354240OX4540-120RX.jpg{/dede:img}\r\n{dede:img ddimg='' text='图 40'}/uploads/allimg/c121130/1354240O941920-1212032.jpg{/dede:img}",358,4262);
+$z[8][4]['name']="imgurls";
+$z[9]=Array("field","/uploads/allimg/c121130/1354240MW64P-R3052_lit.jpg",4264,4353);
+$z[9][4]['name']="litpic";
+
+?>

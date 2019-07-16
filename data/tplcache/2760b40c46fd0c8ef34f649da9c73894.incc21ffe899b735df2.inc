@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("sppage","{path}{file}_{p}{ext}",0,84);
+$z[0][4]['sptype']="diyrule";
+$z[0][4]['srul']="1";
+$z[0][4]['erul']="20";
+$z[1]=Array("previewurl","http://www.win4000.com/meinv25267.html",86,159);
+$z[2]=Array("keywordtrim","",161,198);
+$z[3]=Array("descriptiontrim","",200,245);
+$z[4]=Array("item","\r\n   {dede:match}<div class=\"toptitle\">[ÄÚÈÝ]</h1>{/dede:match}\r\n   {dede:trim replace=\"\"}<div([^.]*)>{/dede:trim}\r\n{dede:trim replace=\"\"}</div>{/dede:trim}\r\n{dede:trim replace=\"\"}<h1([^.]*)>{/dede:trim}\r\n{dede:trim replace=\"\"}</h1>{/dede:trim}\r\n   {dede:function}{/dede:function}\r\n",247,595);
+$z[4][4]['field']="title";
+$z[4][4]['value']="";
+$z[4][4]['isunit']="";
+$z[4][4]['isdown']="";
+$z[5]=Array("item","\r\n   {dede:match}{/dede:match}\r\n   \r\n   {dede:function}{/dede:function}\r\n",595,735);
+$z[5][4]['field']="writer";
+$z[5][4]['value']="";
+$z[5][4]['isunit']="";
+$z[5][4]['isdown']="";
+$z[6]=Array("item","\r\n   {dede:match}{/dede:match}\r\n   \r\n   {dede:function}{/dede:function}\r\n",735,875);
+$z[6][4]['field']="source";
+$z[6][4]['value']="";
+$z[6][4]['isunit']="";
+$z[6][4]['isdown']="";
+$z[7]=Array("item","\r\n   {dede:match}{/dede:match}\r\n   \r\n   {dede:function}{/dede:function}\r\n",875,1016);
+$z[7][4]['field']="pubdate";
+$z[7][4]['value']="";
+$z[7][4]['isunit']="";
+$z[7][4]['isdown']="";
+$z[8]=Array("item","\r\n   {dede:match}<div class=\"nph_cnt\" id=\"photoView\">[ÄÚÈÝ]</div>{/dede:match}\r\n   \r\n   {dede:function}@me=TurnImageTag(@me);\r\n{/dede:function}\r\n",1016,1231);
+$z[8][4]['field']="imgurls";
+$z[8][4]['value']="";
+$z[8][4]['isunit']="1";
+$z[8][4]['isdown']="1";
+$z[9]=Array("item","\r\n   {dede:match}{/dede:match}\r\n   \r\n   {dede:function}{/dede:function}\r\n",1231,1371);
+$z[9][4]['field']="body";
+$z[9][4]['value']="";
+$z[9][4]['isunit']="1";
+$z[9][4]['isdown']="1";
+
+?>

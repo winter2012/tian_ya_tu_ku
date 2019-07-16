@@ -1,0 +1,1 @@
+<li class="first"> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:body_img function='thumb(@me,280,396)'/]" alt="[field:fulltitle/]" width="280" height="396" /> <span class="name">[field:title/]</span> </a> </li>

@@ -1,0 +1,1 @@
+<li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:litpic/]" title="[field:fulltitle/]" /> <span class="name">[field:title/]</span> </a> </li>

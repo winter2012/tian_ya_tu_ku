@@ -1,0 +1,1 @@
+<li style="display:block;"><a href="[field:arcurl/]" target="_blank"><img  src="[field:first_imgurl function='thumb(@me,600,320)'/]" width="600" height="320" alt="[field:title/]"/></a><i>[field:title/]</i></li>

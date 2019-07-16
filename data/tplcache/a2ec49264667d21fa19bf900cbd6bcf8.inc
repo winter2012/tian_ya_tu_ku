@@ -1,0 +1,10 @@
+{dede:pagestyle maxwidth='800' ddmaxwidth='240' row='3' col='3' value='2'/}
+{dede:comments}图集类型会采集时生成此配置是正常的，不过如果后面没有跟着img标记则表示规则无效{/dede:comments}
+{dede:img ddimg='' text='图 1'}/uploads/allimg/c120411/1334120Q954610-1a2Q.jpg{/dede:img}
+{dede:img ddimg='' text='图 2'}/uploads/allimg/c120411/1334120R252c0-201R5.jpg{/dede:img}
+{dede:img ddimg='' text='图 3'}/uploads/allimg/c120411/1334120R521A0-212195.jpg{/dede:img}
+{dede:img ddimg='' text='图 4'}/uploads/allimg/c120411/1334120RLEP-223230.jpg{/dede:img}
+{dede:img ddimg='' text='图 5'}/uploads/allimg/c120411/1334120Rc3250-235008.jpg{/dede:img}
+{dede:img ddimg='' text='图 6'}/uploads/allimg/c120411/1334120S20V20-244517.jpg{/dede:img}
+{dede:img ddimg='' text='图 7'}/uploads/allimg/c120411/1334120S43T0-253605.jpg{/dede:img}
+{dede:img ddimg='' text='图 8'}/uploads/allimg/c120411/1334120SH0530-261533.jpg{/dede:img}

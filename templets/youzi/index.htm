@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="data-spm" content="1" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_basehost /}/skins/css/global1.css" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_basehost /}/skins/css/index.css" />
+</head>
+<body>
+<script type="text/javascript" defer="defer" charset="utf-8">
+    (function(d,t) {
+      window.huaban_minWidth = 280;
+      window.huaban_minHeight = 280;
+      var appendScript = function() {
+        var a   = d.createElement('script');
+        a.id    = 'huaban_share_script';
+        a.async = true;
+        a.setAttribute('charset','utf-8');
+        a.src   = 'http://huaban.com/js/pinmarklet.js?' + Math.floor(+new Date/1E7);
+        var s   = d.getElementsByTagName(t)[0];
+        s.parentNode.insertBefore(a, s);
+      };
+      if (window.attachEvent) {
+        window.attachEvent('onload', function(){setTimeout(appendScript, 1000);});
+      } else {
+        appendScript();
+      }
+    })(document, 'script');
+</script>
+{dede:include filename="hin.htm"/}
+<!--内容 start--> 
+<!--首页焦点 start-->
+<div class="promo1-wrap">
+  <div class=" center clearfix">
+    <div class="guess-like">
+      <div class="title-s1">
+        <h2> <span>猜你喜欢</span> </h2>
+      </div>
+      <ul  class="first">
+      	{dede:arclist limit='0,6' titlelen=26}
+        <li><a href="[field:arcurl/]" title="[field:fulltitle/]" target="_blank">[field:title/]</a></li>
+        {/dede:arclist}
+      </ul>
+      <ul  class="second">
+        {dede:arclist limit='6,6' titlelen=26}
+        <li><a href="[field:arcurl/]" title="[field:fulltitle/]" target="_blank">[field:title/]</a></li>
+        {/dede:arclist}
+      </ul>
+    </div>
+    <div id="promp1" class="promp1">{dede:arclist row=1 flag=f}<a class="cur-link" href="[field:arcurl/]" title="[field:fulltitle/]"> <img src="[field:first_imgurl function='thumb(@me,770,370)'/]" class="mask" style="display: block;" alt="[field:fulltitle/]" width="770" height="370" /> <img src="[field:first_imgurl function='thumb(@me,770,370)'/]" class="top" alt="[field:fulltitle/]" width="770" height="370" style="display: block;" /> </a>{/dede:arclist}
+      <ul class="nav-pics">
+      	{dede:arclist row=5 flag='f' channelid=2}
+        <li><a href="[field:arcurl/]"><img alt="[field:fulltitle/]" data-original="[field:first_imgurl function='thumb(@me,150,60)'/]" width="150" height="60" bigpic="[field:first_imgurl function='thumb(@me,770,370)'/]" title="[field:fulltitle/]" /></a></li>
+        {/dede:arclist}
+      </ul>
+    </div>
+  </div>
+</div>
+<!--首页焦点 end-->
+<div id="content" class="center">
+  <!--最新推荐 start-->
+  <div class=" new-recommend sh-s1 clearfix">
+    <div class="title">
+      <h2>最新推荐</h2>
+      {dede:type typeid=9}<a class="more" target="_blank" href="[field:typeurl/]">更多>></a>{/dede:type}
+    </div>
+    <div class="list">
+      <ul class="clearfix">
+      	{dede:arclist flag='p' row=6 typeid=9 titlelen=16}
+        <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:litpic/]" width="130" height="170" alt="[field:fulltitle/]" alt="[field:title/]" /> <span class="name">[field:title/]</span> </a> </li>
+        {/dede:arclist}
+      </ul> 
+    </div>
+  </div>
+  <!--最新推荐 end--> 
+<!--广告-->
+  <!--性感美女 start-->
+ <div class=" mt50 mod-s1 clearfix">
+    <div class="title-s1">
+      <h2> {dede:type typeid=2}[field:typename/]{/dede:type} </h2>
+      {dede:type typeid=2}<a class="more" target="_blank" href="[field:typeurl/]">更多>></a>{/dede:type} </div>
+    <!--文字型列表 start-->
+    <div class="txt-list">
+      <ul class="clearfix">
+      	{dede:arclist flag='c' row=10 typeid=2 titlelen=30 channelid='2'}
+        <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-lazy="[field:litpic/]" width="60" height="80" alt="[field:fulltitle/]" /> <span class="name">[field:title/]</span> </a> </li>
+        {/dede:arclist}
+      </ul>
+    </div>
+    <!--文字型列表 end--> 
+    <!--图片型列表 start-->
+    <div class="pic-list">
+      <ul class="clearfix">
+      	{dede:arclist flag='h' noflag='f' row=1 typeid=2 titlelen=16}
+        <li class="first"> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:first_imgurl function='thumb(@me,280,396)'/]" alt="[field:fulltitle/]" width="280" height="396" /> <span class="name">[field:title/]</span> </a> </li>
+        {/dede:arclist}
+      	{dede:arclist flag='p' noflag='h,f' row=6 typeid=2 titlelen=16}
+        <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:litpic/]" alt="[field:fulltitle/]" width="130" height="170" /> <span class="name">[field:title/]</span> </a> </li>
+        {/dede:arclist}
+      </ul>
+    </div>
+  <!--性感美女 end--> 
+  <!--高清美女 start-->
+  <div class="mt50  pic-list1 clearfix">
+    <div class="title-s1">
+      <h2> {dede:type typeid=5}[field:typename/]{/dede:type}  </h2>
+      {dede:type typeid=5}<a class="more" target="_blank" href="[field:typeurl/]">更多>></a>{/dede:type} </div>
+    <ul class="clearfix" style="width:1050px;">
+      {dede:arclist row=12 typeid=5 titlelen=16}
+      <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:litpic/]" width="170" height="170" alt="[field:fulltitle/]" /> <span class="name">[field:title/]</span> </a> </li>
+      {/dede:arclist}
+    </ul>
+  </div>
+  <!--高清美女 end--> 
+  <!--丝袜美腿 start-->
+ <div class=" mt50 mod-s1 clearfix">
+    <div class="title-s1">
+      <h2> {dede:type typeid=3}[field:typename/]{/dede:type} </h2>
+      {dede:type typeid=3}<a class="more" target="_blank" href="[field:typeurl/]">更多>></a>{/dede:type} </div>
+    <!--文字型列表 start-->
+    <div class="txt-list">
+      <ul class="clearfix">
+      	{dede:arclist flag='c' row=10 typeid=3 titlelen=30 channelid='2'}
+        <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-lazy="[field:litpic/]" width="60" height="80" alt="[field:fulltitle/]" /> <span class="name">[field:title/]</span> </a> </li>
+        {/dede:arclist}
+      </ul>
+    </div>
+    <!--文字型列表 end--> 
+    <!--图片型列表 start-->
+    <div class="pic-list">
+      <ul class="clearfix">
+      	{dede:arclist flag='h' noflag='f' row=1 typeid=3 titlelen=16}
+        <li class="first"> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:first_imgurl function='thumb(@me,280,396)'/]" alt="[field:fulltitle/]" width="280" height="396" /> <span class="name">[field:title/]</span> </a> </li>
+        {/dede:arclist}
+      	{dede:arclist flag='p' noflag='h,f' row=6 typeid=3 titlelen=16}
+        <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:litpic/]" alt="[field:fulltitle/]" width="130" height="170" /> <span class="name">[field:title/]</span> </a> </li>
+        {/dede:arclist}
+      </ul>
+    </div>
+    <!--图片型列表 end--> 
+  </div>
+  <!--丝袜美腿 end--> 
+  <!--美女模特 start-->
+  <div class=" mt50 mod-s1 clearfix">
+    <div class="title-s1">
+      <h2> {dede:type typeid=4}[field:typename/]{/dede:type} </h2>
+      {dede:type typeid=4}<a class="more" target="_blank" href="[field:typeurl/]">更多>></a>{/dede:type} </div>
+    <!--文字型列表 start-->
+    <div class="txt-list">
+      <ul class="clearfix">
+      	{dede:arclist flag='c' row=10 typeid=4 titlelen=30 channelid='2'}
+        <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-lazy="[field:litpic/]" width="60" height="80" alt="[field:fulltitle/]" /> <span class="name">[field:title/]</span> </a> </li>
+        {/dede:arclist}
+      </ul>
+    </div>
+    <!--文字型列表 end--> 
+    <!--图片型列表 start-->
+    <div class="pic-list">
+      <ul class="clearfix">
+      	{dede:arclist flag='h' noflag='f' row=1 typeid=4 titlelen=16}
+        <li class="first"> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:first_imgurl function='thumb(@me,280,396)'/]" alt="[field:fulltitle/]" width="280" height="396" /> <span class="name">[field:title/]</span> </a> </li>
+        {/dede:arclist}
+      	{dede:arclist flag='p' noflag='h,f' row=6 typeid=4 titlelen=16}
+        <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:litpic/]" alt="[field:fulltitle/]" width="130" height="170" /> <span class="name">[field:title/]</span> </a> </li>
+        {/dede:arclist}
+      </ul>
+    </div>
+    <!--图片型列表 end--> 
+  </div>
+  <!--美女模特 end--> 
+  <!--小清新美女 start-->
+  <div class=" mt50 pic-list1 clearfix">
+    <div class="title-s1">
+      <h2>{dede:type typeid=6}[field:typename/]{/dede:type}</h2>
+      {dede:type typeid=6}<a class="more" target="_blank" href="[field:typeurl/]">更多>></a>{/dede:type} </div>
+    <ul class="clearfix">
+      {dede:arclist typeid=6 noflag='f' row=6 titlelen=16}
+      <li> <a target="_blank" href="[field:arcurl/]" title="[field:fulltitle/]"> <img data-original="[field:litpic/]" width="130" height="170" alt="[field:fulltitle/]" /> <span class="name">[field:title/]</span> </a> </li>
+      {/dede:arclist}
+    </ul>
+  </div>
+  <!--小清新美女 end--> 
+  <!--友情链接 start-->
+  <div class=" mt40 friend-links clearfix">
+    <div class="title-s1">
+      <h2> 友情链接 </h2>
+    </div>
+    <div class="content sh-s1">
+      <ul class=" pic-links clearfix">
+	<a href="http://www.codesocang.com">源码搜藏</a>
+        {dede:flink row='14' linktype='2' typeid='0' type='image'/}
+      </ul>
+      <ul class="txt-links clearfix">
+	<a href="http://www.codesocang.com">源码搜藏</a>
+      	{dede:flink row='21' linktype='2' typeid='0' type='text'/}
+      </ul>
+    </div>
+  </div>
+  <!--友情链接 end--> 
+</div>
+<!--内容 end-->
+{dede:include filename="f.htm"/}
+<span id="scrolltop" onClick="window.scrollTo('0','0')"><a>回顶部</a></span>
+<script type="text/javascript">_attachEvent(window, 'scroll', function(){showTopLink();});</script>
+<script src="{dede:global.cfg_basehost /}/skins/js/index.js"></script>
+</body>
+</html>
